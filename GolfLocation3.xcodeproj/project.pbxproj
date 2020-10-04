@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		932209B024F5991C001F077D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932209AF24F5991C001F077D /* AppDelegate.swift */; };
+		932209B224F5991C001F077D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932209B124F5991C001F077D /* SceneDelegate.swift */; };
+		932209B424F5991C001F077D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932209B324F5991C001F077D /* ViewController.swift */; };
+		932209B724F5991C001F077D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932209B524F5991C001F077D /* Main.storyboard */; };
+		932209B924F59920001F077D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932209B824F59920001F077D /* Assets.xcassets */; };
+		932209BC24F59920001F077D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932209BA24F59920001F077D /* LaunchScreen.storyboard */; };
+		932209E824F820B3001F077D /* ClubDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932209E724F820B3001F077D /* ClubDataViewController.swift */; };
+		932209EC24F8AE27001F077D /* RoundDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932209EB24F8AE27001F077D /* RoundDataViewController.swift */; };
+		93B39BC2250F224D007641F7 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93B39BC0250F224D007641F7 /* Model.xcdatamodeld */; };
+		93B39BC6250F23C1007641F7 /* CLShot+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B39BC4250F23C1007641F7 /* CLShot+CoreDataClass.swift */; };
+		93B39BC7250F23C1007641F7 /* CLShot+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B39BC5250F23C1007641F7 /* CLShot+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		932209AC24F5991C001F077D /* Arctan Golf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arctan Golf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		932209AF24F5991C001F077D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		932209B124F5991C001F077D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		932209B324F5991C001F077D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		932209B624F5991C001F077D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		932209B824F59920001F077D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		932209BB24F59920001F077D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		932209BD24F59920001F077D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932209E724F820B3001F077D /* ClubDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClubDataViewController.swift; path = ../../../.Trash/ClubDataViewController.swift; sourceTree = "<group>"; };
+		932209EB24F8AE27001F077D /* RoundDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundDataViewController.swift; sourceTree = "<group>"; };
+		93B39BC1250F224D007641F7 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		93B39BC4250F23C1007641F7 /* CLShot+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLShot+CoreDataClass.swift"; sourceTree = "<group>"; };
+		93B39BC5250F23C1007641F7 /* CLShot+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLShot+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		932209A924F5991C001F077D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		932209A324F5991C001F077D = {
+			isa = PBXGroup;
+			children = (
+				932209AE24F5991C001F077D /* GolfLocation3 */,
+				932209AD24F5991C001F077D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		932209AD24F5991C001F077D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				932209AC24F5991C001F077D /* Arctan Golf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		932209AE24F5991C001F077D /* GolfLocation3 */ = {
+			isa = PBXGroup;
+			children = (
+				93B39BC8250F23D5007641F7 /* Model Group */,
+				932209AF24F5991C001F077D /* AppDelegate.swift */,
+				932209B124F5991C001F077D /* SceneDelegate.swift */,
+				932209B324F5991C001F077D /* ViewController.swift */,
+				932209B524F5991C001F077D /* Main.storyboard */,
+				932209B824F59920001F077D /* Assets.xcassets */,
+				932209BA24F59920001F077D /* LaunchScreen.storyboard */,
+				932209BD24F59920001F077D /* Info.plist */,
+				932209E724F820B3001F077D /* ClubDataViewController.swift */,
+				932209EB24F8AE27001F077D /* RoundDataViewController.swift */,
+				93B39BC0250F224D007641F7 /* Model.xcdatamodeld */,
+			);
+			path = GolfLocation3;
+			sourceTree = "<group>";
+		};
+		93B39BC8250F23D5007641F7 /* Model Group */ = {
+			isa = PBXGroup;
+			children = (
+				93B39BC4250F23C1007641F7 /* CLShot+CoreDataClass.swift */,
+				93B39BC5250F23C1007641F7 /* CLShot+CoreDataProperties.swift */,
+			);
+			path = "Model Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		932209AB24F5991C001F077D /* GolfLocation3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932209C024F59920001F077D /* Build configuration list for PBXNativeTarget "GolfLocation3" */;
+			buildPhases = (
+				932209A824F5991C001F077D /* Sources */,
+				932209A924F5991C001F077D /* Frameworks */,
+				932209AA24F5991C001F077D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GolfLocation3;
+			productName = GolfLocation3;
+			productReference = 932209AC24F5991C001F077D /* Arctan Golf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		932209A424F5991C001F077D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Grant Lau";
+				TargetAttributes = {
+					932209AB24F5991C001F077D = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 932209A724F5991C001F077D /* Build configuration list for PBXProject "GolfLocation3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 932209A324F5991C001F077D;
+			productRefGroup = 932209AD24F5991C001F077D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				932209AB24F5991C001F077D /* GolfLocation3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		932209AA24F5991C001F077D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932209BC24F59920001F077D /* LaunchScreen.storyboard in Resources */,
+				932209B924F59920001F077D /* Assets.xcassets in Resources */,
+				932209B724F5991C001F077D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		932209A824F5991C001F077D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932209EC24F8AE27001F077D /* RoundDataViewController.swift in Sources */,
+				932209B424F5991C001F077D /* ViewController.swift in Sources */,
+				93B39BC7250F23C1007641F7 /* CLShot+CoreDataProperties.swift in Sources */,
+				932209B024F5991C001F077D /* AppDelegate.swift in Sources */,
+				93B39BC6250F23C1007641F7 /* CLShot+CoreDataClass.swift in Sources */,
+				932209E824F820B3001F077D /* ClubDataViewController.swift in Sources */,
+				932209B224F5991C001F077D /* SceneDelegate.swift in Sources */,
+				93B39BC2250F224D007641F7 /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		932209B524F5991C001F077D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				932209B624F5991C001F077D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		932209BA24F59920001F077D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				932209BB24F59920001F077D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		932209BE24F59920001F077D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		932209BF24F59920001F077D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		932209C124F59920001F077D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KH883MLL7;
+				INFOPLIST_FILE = GolfLocation3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gl.GolfLocation3;
+				PRODUCT_NAME = "Arctan Golf";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		932209C224F59920001F077D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KH883MLL7;
+				INFOPLIST_FILE = GolfLocation3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gl.GolfLocation3;
+				PRODUCT_NAME = "Arctan Golf";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		932209A724F5991C001F077D /* Build configuration list for PBXProject "GolfLocation3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932209BE24F59920001F077D /* Debug */,
+				932209BF24F59920001F077D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932209C024F59920001F077D /* Build configuration list for PBXNativeTarget "GolfLocation3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932209C124F59920001F077D /* Debug */,
+				932209C224F59920001F077D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93B39BC0250F224D007641F7 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93B39BC1250F224D007641F7 /* Model.xcdatamodel */,
+			);
+			currentVersion = 93B39BC1250F224D007641F7 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 932209A424F5991C001F077D /* Project object */;
+}
